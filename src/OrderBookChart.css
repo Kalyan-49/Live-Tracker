@@ -1,0 +1,38 @@
+.order-book-chart {
+  margin: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.bar-container {
+  position: relative;
+  height: 100px;
+  width: 60px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.chart-container {
+  margin-top: 20px;
+}

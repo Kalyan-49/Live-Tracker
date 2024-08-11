@@ -1,0 +1,44 @@
+.data-table-container {
+  padding: 20px;
+  overflow-x: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.bar-container {
+  position: relative;
+  height: 100px;
+  width: 50px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 128, 0, 0.5);
+  border-radius: 5px;
+}
